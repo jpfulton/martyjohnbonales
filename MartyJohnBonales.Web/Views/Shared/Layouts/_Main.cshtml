@@ -6,28 +6,24 @@
 <head>
     <meta charset="utf-8" />
 
-    <meta http-equiv="cache-control" content="no-cache" />
-    <meta http-equiv="pragma" content="no-cache" />
-    <meta http-equiv="expires" content="-1" />
-
     <title>@ViewBag.Title</title>
 
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     @Styles.Render("~/bundles/bootstrapcss")
     @Styles.Render("~/bundles/globalcss")
-    @RenderSection("pagestyles", required: false)
 
+    @RenderSection("pagestyles", required: false)
 </head>
 <body>
 
+    @Html.Partial("Layouts/_Header")
+
     <div class="container">
-        @Html.Partial("Layouts/_Header")
-
         @RenderBody()
-
-        @Html.Partial("Layouts/_Footer")
     </div>
+
+    @Html.Partial("Layouts/_Footer")
 
     @Scripts.Render("~/bundles/jqueryjs")
     @Scripts.Render("~/bundles/bootstrapjs")
