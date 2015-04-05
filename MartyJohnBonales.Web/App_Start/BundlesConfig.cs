@@ -8,7 +8,6 @@ namespace MartyJohnBonales.Web
 {
     public class BundlesConfig
     {
-
         public static void RegisterBundles(BundleCollection bundles)
         {
             BundleTable.EnableOptimizations = true;
@@ -21,6 +20,10 @@ namespace MartyJohnBonales.Web
             var bootstrapCdn = "//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js";
             bundles.Add(new ScriptBundle("~/bundles/bootstrapjs", bootstrapCdn)
                 .Include("~/Scripts/bootstrap.js"));
+
+            var globalJsBundle = new ScriptBundle("~/bundles/globaljs")
+                .Include("~/Scripts/navbar.js");
+            bundles.Add(globalJsBundle);
 
             var bootstrapCssCnd = "//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css";
             var boostrapCssBundle = new StyleBundle("~/bundles/bootstrapcss", bootstrapCssCnd)
