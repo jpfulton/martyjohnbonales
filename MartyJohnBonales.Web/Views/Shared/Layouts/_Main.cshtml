@@ -1,0 +1,39 @@
+﻿@using System.Web.Optimization
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="-1" />
+
+    <title>@ViewBag.Title</title>
+
+    <meta name="viewport" content="width=device-width" />
+
+    @Styles.Render("~/bundles/bootstrapcss")
+    @Styles.Render("~/bundles/globalcss")
+    @RenderSection("pagestyles", required: false)
+
+</head>
+<body>
+
+    <div class="container">
+        @Html.Partial("Layouts/_Header")
+
+        @RenderBody()
+
+        @Html.Partial("Layouts/_Footer")
+    </div>
+
+    @Scripts.Render("~/bundles/jqueryjs")
+    @Scripts.Render("~/bundles/bootstrapjs")
+
+    @RenderSection("pagescripts", required: false)
+
+</body>
+</html>
+
