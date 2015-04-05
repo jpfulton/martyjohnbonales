@@ -1,6 +1,6 @@
 ﻿<header>
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <div class="container-fluid">
 
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-collapse">
@@ -9,13 +9,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Brand</a>
+                <a class="navbar-brand" href="@Url.Action("Index")">Marty J. Bonales</a>
             </div>
 
             <div class="collapse navbar-collapse" id="header-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Link</a></li>
+                    <li class="active"><a href="@Url.Action("Index")">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="@Url.Action("Resources")">Resources</a></li>
+                    <li><a href="@Url.Action("Contact")">Contact</a></li>
                 </ul>
             </div>
 

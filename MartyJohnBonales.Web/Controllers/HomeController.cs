@@ -12,5 +12,15 @@ namespace MartyJohnBonales.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult Resources()
+        {
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            return View();
+        }
     }
 }

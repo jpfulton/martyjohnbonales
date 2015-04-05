@@ -1,5 +1,30 @@
 ﻿/* global.css */
 body {
-    padding-top: 60px;
+    padding-top: 30px;
     padding-bottom: 60px;
+}
+
+#body-container {
+    padding: 0;
+}
+
+#banner-section {
+    height: 500px;
+    background: url('../Media/images/coverphoto.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+#banner-section hgroup > h1 {
+    padding-top: 200px;
+    margin-bottom: 0;
+}
+
+#banner-section hgroup > h3 {
+    margin: 0;
+    padding-top: 0;
+}
+
+#banner-section a {
+    margin-top: 10px;
 }
