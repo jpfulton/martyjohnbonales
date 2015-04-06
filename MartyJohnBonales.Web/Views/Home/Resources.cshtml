@@ -4,5 +4,49 @@
     Layout = "~/Views/Shared/Layouts/_Main.cshtml";
 }
 
-<h2>Resources</h2>
+<section>
+    <h2>Resources</h2>
+    <div class="row">
+        <div class="col-xs-12">
+            <p>
+                Here are a few Internet resources that are a great place to find
+                references, tutorials and practice.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            
+            <div class="media">
+                <div class="media-left">
+                    <a href="@Url.Content("~/Media/images/abc-print.png")">
+                        <img id="pic-abc1" class="media-object" src="@Url.Content("~/Media/images/empty.png")" alt="abc" />
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Printable Fingerspelling Chart</h4>
+                    Fingerspelling and the ASL ABCs are a foundational element in learning to communicate.
+                    Here is a printable and easy-to-read chart for you to practice with. Practice with it yourself
+                    or make copies for friends and family.
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left">
+                    <a href="https://www.youtube.com/watch?v=pDfnf96qz_4">
+                        <img id="pic-abc2" class="media-object" src="@Url.Content("~/Media/images/empty.png")" alt="abc" />
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">ASL Alphabet Tutorial Video</h4>
+                    This video will walk you through the ASL alphabet so that you can get started right away.
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 

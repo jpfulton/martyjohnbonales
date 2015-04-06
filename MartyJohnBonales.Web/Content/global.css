@@ -12,6 +12,10 @@ section {
     margin: 20px 10px 0px 10px;
 }
 
+section:first-of-type {
+    margin-top: 40px;
+}
+
 #banner-section {
     height: 500px;
     background: url('../Media/images/coverphoto.jpg') no-repeat center center;
@@ -48,4 +52,10 @@ section {
     width: 140px;
     height: 140px;
     margin-top: 22px;
+}
+
+#pic-abc1, #pic-abc2 {
+    background: url("../Media/images/abc.jpg");
+    width: 64px;
+    height: 64px;
 }

@@ -119,6 +119,8 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Icon.png" />
+    <Content Include="Media\images\abc-print.png" />
+    <Content Include="Media\images\abc.jpg" />
     <Content Include="Media\images\coverphoto.jpg" />
     <Content Include="Media\images\empty.png" />
     <Content Include="Media\images\love.jpg" />
