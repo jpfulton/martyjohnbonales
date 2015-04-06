@@ -14,7 +14,7 @@ section {
 
 #banner-section {
     height: 500px;
-    background: url('../Media/images/coverphoto.jpg') no-repeat center center fixed;
+    background: url('../Media/images/coverphoto.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
     margin: 0;
