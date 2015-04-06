@@ -28,3 +28,15 @@ body {
 #banner-section a {
     margin-top: 10px;
 }
+
+#about-section {
+    margin: 20px 10px 0px 10px;
+}
+
+#pic-love {
+    background: url("../Media/images/love.jpg") no-repeat center;
+    background-size: contain;
+    width: 140px;
+    height: 140px;
+    margin-top: 25px;
+}

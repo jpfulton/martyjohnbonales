@@ -121,6 +121,7 @@
     <Content Include="Icon.png" />
     <Content Include="Media\images\coverphoto.jpg" />
     <Content Include="Media\images\empty.png" />
+    <Content Include="Media\images\love.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-2.1.3.intellisense.js" />
