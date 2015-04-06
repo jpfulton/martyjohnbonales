@@ -8,11 +8,16 @@ body {
     padding: 0;
 }
 
+section {
+    margin: 20px 10px 0px 10px;
+}
+
 #banner-section {
     height: 500px;
     background: url('../Media/images/coverphoto.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
+    margin: 0;
 }
 
 #banner-section hgroup > h1 {
@@ -29,14 +34,16 @@ body {
     margin-top: 10px;
 }
 
-#about-section {
-    margin: 20px 10px 0px 10px;
-}
-
 #pic-love {
     background: url("../Media/images/love.jpg") no-repeat center;
     background-size: contain;
     width: 140px;
     height: 140px;
-    margin-top: 25px;
+    margin-top: 22px;
+}
+
+#intro-video {
+    height: 140px;
+    width: 140px;
+    margin-top: 22px;
 }
