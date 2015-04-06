@@ -42,8 +42,10 @@ section {
     margin-top: 22px;
 }
 
-#intro-video {
-    height: 140px;
+#pic-woman {
+    background: url("../Media/images/woman.jpg") no-repeat center;
+    background-size: contain;
     width: 140px;
+    height: 140px;
     margin-top: 22px;
 }
